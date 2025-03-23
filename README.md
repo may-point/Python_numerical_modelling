@@ -12,3 +12,6 @@ Since I knew the range that the eigenvalues would be in, if I did this and found
 
 In terms of implementing this numerically, I put my Rayleigh iteration into a function so that I could call it. I also made a list of all of the guesses, which I did by first making 2 lists - one of the real and one of the complex parts of each guess, and then combining these lists via two for loops into the list of all guesses.
 I then used a seperate for loop to iterate through this list, and apply my Rayleigh iteration function to this guess, then finally printed out all of the guesses and their corresponding eigenvalue result.
+
+## __Other Notes__
+I included a jupyter notebook with some pictures of output for those interested. There are also a couple of other methods. All code is written by me, and all diagrams generated and produced by me.
